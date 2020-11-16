@@ -7,11 +7,6 @@ public class ArrayNumber {
             if (arrayNumber[i] > 0)
                 sum += arrayNumber[i];
         }
-//        for (Integer integer : arrayNumber) {
-//            if (integer > 0) {
-//                sum += integer;
-//            }
-//        }
         System.out.println("Summa positive numbers =  " + sum);
     }
 
