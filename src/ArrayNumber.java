@@ -4,8 +4,9 @@ public class ArrayNumber {
         Integer[] arrayNumber = {3, 6, 1, -5, 4, 12, -2, 15, -8,};
         int sum = 0;
         for (int i = 0; i < arrayNumber.length; i++) {
-            if (arrayNumber[i] > 0)
+            if (arrayNumber[i] > 0) {
                 sum += arrayNumber[i];
+            }
         }
         System.out.println("Summa positive numbers =  " + sum);
     }
